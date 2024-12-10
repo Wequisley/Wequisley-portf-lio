@@ -1,0 +1,105 @@
+/*Aqui eu contorlo o estilo do body*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+
+/*Aqui eu contorlo o estilo do header*/
+header {
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+
+/*Aqui eu contorlo o estilo do meu nav ul*/
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Aqui eu contorlo o estilo do meu nav ul li*/
+nav ul li {
+    margin: 0 15px;
+}
+
+
+/*Aqui eu contorlo o estilo do meu nav ul li a*/
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*Aqui eu contorlo o estilo do meu nav ul li a:hover*/
+nav ul li a:hover {
+    background-color: rgb(255, 0, 157);
+    text-decoration: underline;
+}
+
+
+/*Aqui eu contorlo o estilo do meu main*/
+main {
+    background-color: rgb(200, 211, 248);
+    padding: 2rem;
+    text-align: center;
+}
+
+
+/*Aqui eu contorlo o estilo do meu footer*/
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: rem;
+}
+
+
+/*Aqui eu oerdeno que todos os meus h2 tenha a cor azul e que fiquem a esquerda*/
+.h2{
+    text-align: left;
+    color: rgb(33, 25, 148);
+}
+
+
+/*Aqui eu oerdeno que todos os meus paragrafos com a class"p1" fiquem a esquerda*/
+.p1{
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/*Aqui eu crio uma class"hleft" paar quando eu quiser colocar titilos a esquerda*/
+.hleft{
+    color: rgb(145, 10, 10);
+    text-align: left;
+}
+
+/*Aqui criio uma class"l1" para que eu possa contorlar meus elementos <l1>*/
+.l1{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f9;
+}
